@@ -24,7 +24,7 @@ function countDown() {
     if(state.values.curretTime <= 0){
         clearInterval(state.actions.countDownTimerId)
         clearInterval(state.actions.timerId)
-        alert(`Seu tempo acavou! Seu Score foi ${state.values.result}`)
+        alert(`Seu tempo acabou! Seu Score foi ${state.values.result}`)
     }
 }
 
